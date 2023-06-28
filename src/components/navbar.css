@@ -1,0 +1,56 @@
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px 20px 0px 30px ;
+}
+.nav-components{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    font-size: 25px;
+    margin: 0px 20px ;
+    font-weight: 900;
+    color: rgb(14, 13, 13);
+    border-bottom: 2px solid black;
+
+}
+.link{
+margin: 10px 10px ;
+ font-size: 18px;
+ color: rgb(241, 234, 234);
+ background-color: black;
+ padding: 5px 14px;
+ border-radius:5px ;
+}
+.link:hover{
+    color: rgb(120, 104, 104);
+    background-color: black;
+    padding: 5px 14px;
+    border-radius:5px ;   
+}
+.sign-in{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    padding:0px 20px ;
+}
+.SignUp{
+    margin-left: 10px;
+}
+.link-sign{
+    color: rgb(245, 242, 242);
+    background-color: black;
+    padding: 5px 14px;
+    border-radius:5px ;
+}
+.link-sign:hover{
+    color: rgb(120, 104, 104);
+    background-color: black;
+    padding: 5px 14px;
+    border-radius:5px ;   
+}
